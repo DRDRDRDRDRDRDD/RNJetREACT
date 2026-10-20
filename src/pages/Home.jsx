@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import ContactForm from '../components/ContactForm'
 
-import '../styles/home.css' 
+import '../styles/home.css'
 
 function Home() {
   const cards = [
@@ -57,7 +57,11 @@ function Home() {
               </div>
               <div className="hero-image">
                 <div className="hero-info"><p style={{ padding: '5px' }}>Канадское качество</p></div>
-                <img src="/assets/images/Принтер.svg" alt="Принтер" />
+                <img
+                  src="/assets/images/Принтер.webp"
+                  alt="Принтер"
+                  fetchPriority="high"
+                />
               </div>
             </div>
             <div className="hero-content">
