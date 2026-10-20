@@ -23,6 +23,10 @@
     background: #b81424;
 }
 
+img {
+   max-width: 100%; height: auto;
+}
+
 a {
     text-decoration: none;
     color: var(--black);
@@ -658,6 +662,6 @@ nav {
 
 
 @font-face {
-  font-family: 'PT Sans Narrow';
-  src: url('/assets/fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf');
+    font-family: 'PT Sans Narrow';
+    src: url('/assets/fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf');
 }

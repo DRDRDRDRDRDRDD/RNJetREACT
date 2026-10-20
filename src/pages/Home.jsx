@@ -58,7 +58,7 @@ function Home() {
               <div className="hero-image">
                 <div className="hero-info"><p style={{ padding: '5px' }}>Канадское качество</p></div>
                 <img
-                  src="/assets/images/Принтер.webp"
+                  src="src/assets/images/Принтер.webp"
                   alt="Принтер"
                   fetchPriority="high"
                 />
